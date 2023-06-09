@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Pinocho 2ºBC</title>
+        <link rel = "icon" href="Recursos/logo.png">
+        <link rel = "stylesheet" href = "css/estilos.css">
+        <link rel="stylesheet" href="css/media.css">
+        <meta charset="utf-8">
+        <meta name="description" content="La mejor pagina sobre Pinocho">
+        <meta name="author" content="Lucas, Leandro, Maximiliano, Paulo">
+        <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    </head>
+    <body>
+        <nav>
+            <div id="div1">
+                <a href="index.html"><img class="img1" alt="Cabeza de pinocho" src="Recursos/logo.png"></a>
+            </div>
+            <div id="div2">    
+                <ul>
+                    <li><a href="resumen.html"><article class="l1">Resumen</article></a></li>
+                    <li><a href="escritores.html"><article class="l1">Escritor</article></a></li>
+                    <li><a href="libro.html"><article class="l1">Libros</article></a></li>
+                    <li><a href="imagenes.html"><article class="l1">Imágenes</article></a></li>
+                    <li><a href="videos.html"><article class="l1">Videos</article></a></li>
+                    <li><a href="juegos.html"><article class="l1">Juegos</article></a></li>
+                </ul>
+            </div>
+        </nav>
+        <header></header>
+
+        <div id="descubre">
+            <span><span style="color:#36A3FF">Descubre el mágico</span><span style="color:#FF6161"> mundo de Pinocho</span></span>
+        </div>
+        <div id="botones1">
+            <a href="resumen.html"><article class="b1a"><img class="b1" alt="Boton rojo para seccion resumen" src="Recursos/boton_resumen1.png"></article></a>
+            <a href="escritores.html"><article class="b2a"><img class="b2" alt="Boton azul para seccion escritores" src="Recursos/boton_escritor2.png"></article></a>
+            <a href="libro.html"><article class="b3a"><img class="b3" alt="Boton rojo para seccion libros" src="Recursos/boton_libro1.png"></article></a>
+        </div>
+        <div id="botones2">
+            <a href="imagenes.html"><article class="b4a"><img class="b4" alt="Boton azul para seccion imagenes" src="Recursos/boton_imagenes2.png"></article></a>
+            <a href="videos.html"><article class="b5a"><img class="b5" alt="Boton rojo para seccion videos" src="Recursos/boton_videos1.png"></article></a>
+            <a href="juegos.html"><article class="b6a"><img class="b6" alt="Boton azul para seccion juegos" src="Recursos/boton_juegos2.png"></article></a>
+        </div>
+        <div class="flecha">
+            <i class="arrow down"></i>
+        </div>
+        <div id="nosotros_titulo">
+            <span style="color:#36A3FF">Nosotros</span><span style="color:#FF6161">!</span>
+        </div>
+        <div class="parrafos">
+            Los desarrolladores de esta página somos: Leandro Nicola, Maximiliano Aquino, Paulo Rimolo y Lucas Carballo. Alumnos de segundo año de EMT de Informática del Instituto Tecnológico de Informática (DGETP). Junto a nuestra profesora de APT, Ana Silva, decidimos embarcarnos en este proyecto, creando una página interactiva sobre cuentos infantiles clásicos, para presentárselos a ustedes estudiantes de la Escuela número 94 de la DGEIP.
+        </div>
+        <div class="flecha">
+            <i class="arrow down"></i>
+        </div>
+        <div id="opinion_titulo">
+        <span><span style="color:#36A3FF">Déjanos tu</span><span style="color:#FF6161"> Opinión</span><span style="color:#36A3FF">!</span>
+            <form action="PhpDataBase.php" method="post"> <br>
+                <label for="mombre"><span style="color:#36A3FF">Tu </span><span style="color: #FF6161">nombre</span></label><br> 
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="opinion"><span style="color:#36A3FF">Tu experiencia</span><span style="color:#FF6161"> Aquí</span></label><br>
+                <textarea id="opinion" name="opinion" style="resize:none;" rows="5" required></textarea><br>
+                <input class="boton" type="submit" value="Listo">
+            </form>
+        </div>
+    </body>
+</html>
